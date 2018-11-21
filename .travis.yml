@@ -6,3 +6,5 @@ before_script:
 script:
 - coverage run --source='authors' manage.py test authors
 - coverage report
+after_success:
+- coveralls
