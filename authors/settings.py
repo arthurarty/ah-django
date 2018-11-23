@@ -146,4 +146,4 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
-#django_heroku.settings(locals())
+django_heroku.settings(locals())
